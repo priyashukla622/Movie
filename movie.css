@@ -1,156 +1,69 @@
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
-    background-color:lightblue;
     background-image: url('img.jfif');
     background-size: cover;
-    
 }
-
 nav{
-    height:17rem;
-    width:100%;
     background-color:lightcoral;
+    height:50px;
+    width:100%;
 }
 h2{
-   position: absolute;
-   font-size: 150px;
-   top: 50px;
-   left: 130rem;
-   color:white;
- 
+    position: absolute;
+    left:400px;
+    top:10px;
+    font-size:30px
+}
+.logo{
+    border-radius: 100%;
+    height:50px;
+    width:50px;
+    position: absolute;
+    left: 30px;
+    top: 1px;
 }
 #container{
-    height:93rem;
-    width: 130rem;
+    height:20rem;
+    width:50rem;
     margin-top: 50px;
     margin-left: 80px;
     
 }
 #inputBox{
-    position: absolute;
-    top:30rem;
-    left:45rem;
-    height:160px;
-    width: 100rem;
-    font-size: 70px;
-    padding: 50px;
-    cursor: pointer;
-    border: 1px solid black;
-    border-radius: 20px;
+    height:25px;
+    width:200px;
+    border:1px solid black;
+    padding-left:10px;
+    border-radius: 4%;
 }
-button{
-    position: relative;
-    top:10rem;
-    left:140rem;
-    height:160px;
-    width: 25rem;
-    font-size: 60px;
-    cursor: pointer;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: orangered;
+#search i{
+    margin-left:-40px;
+}
+#button{
+    margin-left: 20px;
+    height:25px;
+    width:100px;
+    background-color: red;
     color: white;
-    box-shadow: 1px 1px 5px orangered;
-   
-
+    border-radius: 4%;
 }
-#container i{
-    position: relative;
-    left: 130rem;
-    top:155px;
-    font-size: 60px;
+.movieImg  img{
+    height:150px;
+    width:150px;
 }
-.logo{
-    height:260px;
-    width:270px;
-    margin-left: 350px;
-    margin-top: 10px;
-    border-radius: 50%;
-   
-}
-
-
-#text{
-    font-size: 70px;
-    margin-top: 200px;
-    margin-left: 30px;
-}
-h1{
-    font-size: 80px;
-    margin-left: 17rem;
-    margin-top:20rem ;
-
+.movieImg{
+    margin-top:-230px; 
+    margin-left:360px;
 }
 #text p{
-    margin-top: 50px;
-    font-size: 65px;
-    margin-left:17rem;
+    font-size: 17px;
 }
-.movieImg {
-    margin-left: 110rem;
-    margin-top: -80rem;
+h1{
+    margin-top: 30px;
 }
-
-
-.movieImg  img{
-    height:1100px;
-    width: 900px;
-}
-
-@media(max-width:600px) {
-    nav{
-        width:410%;
-        height: 60px;
-    }
-    .logo{
-        height: 50px;
-        width:50px ;
-        margin-left: 15px;
-    }
-    nav h2{
-        margin-left: -1965px;
-        font-size: 30px;
-        margin-top: -35px;
-    }
-    #container{
-        margin-left: -500px;
-        font-size: 20px;
-    }
-    #inputBox{
-        margin-left: -700px;
-        height:100px; 
-        width: 200px;
-        margin-top: -350px;
-    }
-    button{
-        margin-left:-1660px;
-        margin-top:-70px ;
-        height:50px; 
-        width:100px ;
-        font-size: 20px;
-    }
-    #text p{
-        margin-left: 520px;
-        font-size: 50px;
-    }
-    h1{
-        margin-left:520px ;
-    }
-    .movieImg  img{
-        height:250px;
-        width: 300px;
-    }
-    .movieImg{
-        margin-top:-900px; 
-        margin-right: -300px;
-    }
-   
-    
-}
-
 
