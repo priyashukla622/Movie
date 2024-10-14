@@ -1,7 +1,7 @@
 
 function movieSearch(){
     const movieInput = document.getElementById("inputBox").value;
-    fetch(`http://www.omdbapi.com/?t=${movieInput}&apikey=c37526bb`)
+    fetch(`https://www.omdbapi.com/?t=${movieInput}&apikey=c37526bb`)
         .then(response => response.json())
         .then(data => {
             const Title = data.Title;
